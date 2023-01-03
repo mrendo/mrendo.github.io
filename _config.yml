@@ -21,10 +21,10 @@ timezone: Europe/London
 
 title: Mr. Endo (Luke C)                          # the main title
 
-tagline: An sys admins place on the internet   # it will display as the sub-title
+tagline: A sys admins place on the internet   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Sys Admin blogs, HTB writeups, Linux helpful stuff.
+  Sys Admin blogs, HTB writeups, Linux helpful stuff, Splunk, Linux
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://mrendo.github.io'
@@ -46,7 +46,7 @@ social:
     - https://github.com/mrendo          # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/luke-cameron-650327151/
 
 google_site_verification:               # fill in to your verification string
 
@@ -54,7 +54,7 @@ google_site_verification:               # fill in to your verification string
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id:                 # fill in your Google Analytics ID
+  id:  G-C56TFBV1QP              # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
@@ -78,10 +78,10 @@ theme_mode:   # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: 'https://chirpy-img.netlify.app'
+img_cdn: 
 
 # the avatar on sidebar, support local or CORS resources
-avatar: '/commons/avatar.jpg'
+avatar: '/assets/img/avatar/mrendo.png'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
